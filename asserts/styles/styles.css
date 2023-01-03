@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.operator {
+    height: 60px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.minus {
+    background-color: #f31919e1;
+    color: white;
+    border: 1px solid red;
+}
+
+.addition {
+    background-color: #1717d6;
+    color: white;
+    border: 1px solid blue;
+}
+
+.num{
+    width: 80px;
+    border: 1px solid black;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
